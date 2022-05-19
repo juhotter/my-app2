@@ -139,7 +139,7 @@ end: true,
 {id: '12',
 component: <ReactWhatsapp number="+43 6609200611" message="Hello" >
   Click me for a quick Message 
-  </ReactWhatsapp> ,
+  </ReactWhatsapp> , 
 end: true,
 },
 
