@@ -5,7 +5,8 @@ import { SocialIcon } from 'react-social-icons';
 import  "./Contact.css"
 import follow from "./follow.png"
 import me from "./me.jpeg"
-
+import ReactWhatsapp from 'react-whatsapp';
+import { Button } from 'bootstrap';
 
 const theme = {
     background: 'white',
@@ -18,8 +19,14 @@ const theme = {
     userBubbleColor: '#fff',
     userFontColor: '#4a4a4a',
  
+
+
     
   };
+
+
+  const button = React.createElement('h1', {}, 'My First React Code');
+
 
   const Mailto = ({ email, subject = '', body = '', children }) => {
     let params = subject || body ? '?' : '';
@@ -85,6 +92,8 @@ steps = {[
   options: [
     { value: 1, label: 'I just want to say hello', trigger: '3' },
     { value: 2, label: 'contact you via email', trigger: '4' },
+    { value: 3, label: 'Tell me a Joke ', trigger: '10' },
+    { value: 4, label: 'contact you via Whatsapp', trigger: '12' },
     
     
     
@@ -118,6 +127,22 @@ steps = {[
   message: 'Okay :-)',
   end: true,
 },
+{
+  id: '10',
+  message: 'Did you hear about the Italian chef who died?' ,
+  trigger: "11",
+},
+{id: '11',
+message: 'He pasta-way. ' ,
+end: true,
+},
+{id: '12',
+component: <ReactWhatsapp number="+43 6609200611" message="Hello" >
+  Click me for a quick Message 
+  </ReactWhatsapp> ,
+end: true,
+},
+
 {
   
   id: 'mailme',

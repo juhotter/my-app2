@@ -8940,6 +8940,11 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
+"react-whatsapp@^0.2.1":
+  "integrity" "sha512-fjEahRJR0qcVvBZfxXxV9yK/U0QwFS9ZuoAvDpBmJbPS1cNAXUnJaDJ7mpZv0l11dfYEc4ikl/V5cwV/QVLKlg=="
+  "resolved" "https://registry.npmjs.org/react-whatsapp/-/react-whatsapp-0.2.1.tgz"
+  "version" "0.2.1"
+
 "react@*", "react@^15.0 || ^16.0 || ^17.0", "react@^16.0.0", "react@^16.8.0 || ^17.0.0-rc.1", "react@^16.8.0-0 || >=17.0.1", "react@^16.8.3 || ^17 || ^18", "react@^17.0.2", "react@^18.0.0", "react@>= 16", "react@>= 16.8.0", "react@>=0.14.0", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@>=16.8.0", "react@15.x.x || 16.x.x || 17.x.x":
   "integrity" "sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.0.0.tgz"

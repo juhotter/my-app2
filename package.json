@@ -30,6 +30,7 @@
     "react-simple-chatbot": "^0.6.1",
     "react-social-icons": "^5.13.0",
     "react-transition-group": "^4.4.2",
+    "react-whatsapp": "^0.2.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
