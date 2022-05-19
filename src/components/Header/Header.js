@@ -29,8 +29,7 @@ const Header = () => (
      <Link className='class1' style={{ textAlign: "right", float:  "right", textDecoration: 'none', color: 'white'  ,paddingRight: "50px",paddingTop:"5px"}}to="about">About</Link>
      <Link className='class1' style={{ textAlign: "right", float:  "right",textDecoration: 'none', color: 'white'  ,paddingRight: "50px",paddingTop:"5px"}}to="portfolio">Portfolio</Link>
      <Link className='class1' style={{ textAlign: "right", float:  "right", textDecoration: 'none', color: 'white'  ,paddingRight: "50px",paddingTop:"5px"}}to="skills">Skills</Link>
-     <Link className='class1' style={{ textAlign: "right", float:  "right", textDecoration: 'none', color: 'white'  ,paddingRight: "50px",paddingTop:"5px"}}to="game">Game</Link>
-   
+     
    
   </div>
 </nav>
