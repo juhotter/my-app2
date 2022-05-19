@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.navbar {
+    background-color: #282c34;
+    color: white;
+    font-family: 'Kalam';
+}
+
+a.class1 {
+  background-image: linear-gradient(
+    to right,
+    #5eb277,
+    #5eb277 50%,
+    rgb(255, 255, 255) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+a.class1:hover {
+  background-position: 0;
+ }
