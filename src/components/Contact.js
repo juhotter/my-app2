@@ -3,10 +3,9 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import { SocialIcon } from 'react-social-icons';
 import  "./Contact.css"
-import follow from "./follow.png"
 import me from "./me.jpeg"
 import ReactWhatsapp from 'react-whatsapp';
-import { Button } from 'bootstrap';
+
 
 const theme = {
     background: 'white',
@@ -72,28 +71,65 @@ function Contact() {
      
 steps = {[
   {
+    id: 'start',
+    message: 'Hi, I am Julian`s 🤖 -  just a little bit funnier than him',
+    trigger: '0',
+  
+  },
+
+  {
       id: '0',
-      message: 'Hello Stranger, to keep it more personal, what is your name?',
-      trigger: 'name',
+      message: 'Wanna Tell me your Name?',
+      trigger: 'nameorno',
     
     },
-    {
-      id: 'name',
-      user: true,
-      trigger: '1',
-    },
+  
+
+
 {
-  id: '1',
-  message: 'Hi {previousValue}! What can i do for you?',
-  trigger: '2',
+  id: 'nameorno',
+  options: [
+    { value: 1, label: 'No', trigger: '111' },
+    { value: 2, label: 'Sure', trigger: '1' , trigger: 'name'} 
+  ]
+ 
 },
+
+{
+  id: 'name',
+  user: true,
+  trigger: '1',
+},
+{
+id: '1',
+message: 'Nice to "meet" you 👋 - {previousValue}! What can i do for you?',
+trigger: '2',
+},
+{
+id: '111',
+message: 'Okay, then we cannot be friends 😔, but what can i do for you?',
+trigger: '2',
+},
+
+{
+  id: 'whatsappOrMail',
+  options: [
+    { value: 2, label: 'contact you via Email 📧', trigger: '4' },
+  
+    { value: 4, label: 'contact you via Whatsapp', trigger: '12' },
+    
+    
+    
+  ],
+},
+
 {
   id: '2',
   options: [
     { value: 1, label: 'I just want to say hello', trigger: '3' },
-    { value: 2, label: 'contact you via email', trigger: '4' },
+    { value: 2, label: 'contact you', trigger: 'whatsappOrMail' },
     { value: 3, label: 'Tell me a Joke ', trigger: '10' },
-    { value: 4, label: 'contact you via Whatsapp', trigger: '12' },
+  
     
     
     
@@ -103,14 +139,15 @@ steps = {[
   id: '5',
   options: [
     { value: 1, label: 'No thanks', trigger: '6' },
-    { value: 2, label: 'Yes i want  to work with you', trigger: '4' },
+    { value: 2, label: 'Yes, i want to contact you ', trigger: '4' },
+    { value: 3, label: 'Take me back to the Main Menü Mr. Bot', trigger: '2' },
     
   ],
 },
 
 {
   id: '3',
-  message: 'Hi, have a nice day. Can i do something else for you?',
+  message: 'Hi, have a nice day ☀️. Can i do something else for you?',
  
   trigger: '5',
   
@@ -129,16 +166,16 @@ steps = {[
 },
 {
   id: '10',
-  message: 'Did you hear about the Italian chef who died?' ,
+  message: 'Did you hear about the Italian 🇮🇹 chef who died?' ,
   trigger: "11",
 },
 {id: '11',
-message: 'He pasta-way. ' ,
+message: 'He pasta-way.🤌 ' ,
 end: true,
 },
 {id: '12',
 component: <ReactWhatsapp number="+43 6609200611" message="Hello" >
-  Click me for a quick Message 
+  Click-Me
   </ReactWhatsapp> ,
 end: true,
 },
@@ -147,7 +184,7 @@ end: true,
   
   id: 'mailme',
   component: <Mailto  email="julian.hotter@gmx.at" subject="Inquiry" body="Hello Julian"   >
-  Click me for a quick Mail
+  Click-Me
 </Mailto>,
   end: true,
 },
