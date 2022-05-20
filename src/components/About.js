@@ -36,9 +36,8 @@ function About() {
     
         <p>I am a software engineer based in Tyrol, Austria.  </p>
 
-      <p>I am holding a bachelor degree in Computer Science and 
-         currently I am studying for a Master’s degree in Software Engineering in Innsbruck.
-      My first experiences i gathered working for Onlim as a mainly Backend Software Developer. </p>
+      <p>I am currently finishing my bachelor degree in Computer Science and 
+      from October on I will be studying for a Master’s degree in Software Engineering in Innsbruck. </p>
      
       
       <p>In my opinion Software Engeneering is like building Lego, which i loved as a kid.
