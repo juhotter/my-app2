@@ -29,7 +29,7 @@ import key from "./key.png"
 function Skills() {
     return (
     
-
+<html>
 
 <div class="mycontainer">
 
@@ -135,8 +135,11 @@ Currently also learning flutter, for developing hybrid Apps for Android and IOS.
 
 
 </div>
-
-
+<div className="text">
+In Austria there is a saying "Geht nid gibts nid", meaning that something can't be done, doesn't exist.
+So i will try my best to make everything possible.
+</div>
+</html>
     );
     }
     

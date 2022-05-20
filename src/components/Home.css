@@ -36,24 +36,46 @@
   color: rgb(255, 255, 255);
     position: absolute;
     top: 0; right: 0;
-    padding-right: 41%;
+    padding-right: 35%;
     padding-top: 25vh;
     font-family: 'Kalam';
-    transform: rotate(348deg);
-  
+    transform: rotate(350deg);
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    text-transform: uppercase;
+    
+
    
    
     
   }
-   
+  
+
+
+
+
+
   /* (D) SHOW/HIDE */
   .fullcap {
     visibility: none; opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
     
+
+
   }
+
+
+
+
+
+
+
+
+  
   .fullwrap:hover .fullcap {
     visibility: visible; opacity: 1;
+   
+ 
 
    
   }

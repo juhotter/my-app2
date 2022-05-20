@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
+
+.text{
+
+  float: bottom;
+  text-align: center;
+  font-family: 'Kalam';
+}
 .mycontainer {
   position: relative;
   width: 1000pxpx;
