@@ -21,7 +21,26 @@ function Home() {
 
 
 
-       <div class="fullcap">I'm Julian - a Software Engineer Based in Austria</div>
+       <div class="fullcap" id='hello'>
+       
+
+         <span>I'm</span>
+         <span > Julian</span>
+         <span > - a </span>
+         <span > Software</span>
+         <span > Engineer</span>
+         <span > Based </span>
+         <span > in</span>
+         <span > Austria</span>
+          
+       
+         
+       
+         
+         
+         
+         
+         </div>
 </div>
    
    
