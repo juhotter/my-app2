@@ -6,7 +6,7 @@
 .image{
    border-radius: 50%; 
    height: 30%;
-   width: 33%;
+   width: 28%;
    display: block;
    margin-left: auto;
    
@@ -57,12 +57,12 @@ blockquote:after {
 
 blockquote:before {
 	content: '“';
-	left: -5rem;
-	top: -3rem;
+	left: -0.1rem;
+	top: -1.5rem;
 }
 
 blockquote:after {
 	content: '”';
-	right: -1.5rem;
-	bottom: 5rem;
+	right: 2rem;
+	bottom: 4rem;
 }

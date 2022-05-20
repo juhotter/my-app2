@@ -39,11 +39,7 @@ function About() {
       <p>I am holding a bachelor degree in Computer Science and 
          currently I am studying for a Master’s degree in Software Engineering in Innsbruck.
       My first experiences i gathered working for Onlim as a mainly Backend Software Developer. </p>
-      In the meantime i developed small projects for personal purposes 
-      like a Android Workout Tracking App,
-      or some automatication tools for a better workflow.
-      At the University i gained my first experiences with some 
-       projects in Web-Development, like implementing a Online Library System or a Online Multiplay Activity Game.
+     
       
       <p>In my opinion Software Engeneering is like building Lego, which i loved as a kid.
       You have different tools and parts at your disposal and you have to create something unique every time.

@@ -2,6 +2,8 @@
 
 
 .outerdiv{
+
+    overflow: scroll;
 padding-top: 100px;
 font-family: 'Kalam';
 
@@ -11,4 +13,11 @@ font-family: 'Kalam';
 .TextPortfolio{
     font-family: 'Kalam';
     font-size: 15px;
+    padding-left: 30%;
+padding-right: 30%;
+overflow: scroll;
+height: 100vh;
+
+    
+
 }
