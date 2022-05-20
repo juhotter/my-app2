@@ -16,7 +16,7 @@ function AnimatedRoutes(){
 
         <PageTransition  style={{height: '100vh'}}
       
-        preset="foldRightFromLeft"
+        preset="fall"
         transitionKey={location.pathname}
       >
         <Routes location={location} key={location.pathname}>   
