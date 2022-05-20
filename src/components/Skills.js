@@ -35,7 +35,7 @@ function Skills() {
 
   <div class="box">
     <div class="imgBx">
-      <img src={web}></img>
+      <img src={web}  loading="lazy" ></img>
     </div>
     <div class="content">
       <div>
@@ -61,7 +61,7 @@ function Skills() {
   </div>
   <div class="box">
     <div class="imgBx">
-    <img src={mobile} ></img> </div>
+    <img src={mobile}   loading="lazy"></img> </div>
     <div class="content">
       <div>
         <h2>App-Development</h2>
@@ -84,7 +84,7 @@ Currently also learning flutter, for developing hybrid Apps for Android and IOS.
   </div>
   <div class="box">
     <div class="imgBx">
-    <img src={programming}></img>  </div>
+    <img src={programming}  loading="lazy"></img>  </div>
     <div class="content">
       <div>
         <h2>Further Programming</h2>
@@ -107,7 +107,7 @@ Currently also learning flutter, for developing hybrid Apps for Android and IOS.
   </div>
   <div class="box">
     <div class="imgBx">
-    <img src={further}></img> </div>
+    <img src={further}  loading="lazy"></img> </div>
     <div class="content">
       <div>
         <h2>Further</h2>

@@ -15,6 +15,7 @@ function Home() {
         height={"100%"}
         width={"100%"}
         alt="Background"
+        loading="lazy"
         
       />
 
