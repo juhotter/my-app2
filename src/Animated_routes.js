@@ -26,6 +26,7 @@ function AnimatedRoutes(){
         <Route path="Portfolio" element={ <Portfolio/> } />
         <Route path="Skills" element={ <Skills/> } />
         <Route path="Imprint" element={ <Imprint/> } />
+        <Route path="Home" element={ <Home/> } />
         </Routes>
         </PageTransition>
     );
