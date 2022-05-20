@@ -21,6 +21,7 @@
     "react-dom": "^18.0.0",
     "react-flippy": "^1.1.0",
     "react-icons": "^4.3.1",
+    "react-id-swiper": "^4.0.0",
     "react-images-viewer": "^1.7.1",
     "react-mailto": "^0.4.0",
     "react-router": "^6.3.0",
@@ -32,6 +33,7 @@
     "react-transition-group": "^4.4.2",
     "react-whatsapp": "^0.2.1",
     "styled-components": "^5.3.5",
+    "swiper": "^8.1.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
