@@ -7,6 +7,7 @@
  filter: none;
     transition: 1.5s ease ;
  
+ 
    
 
     }
@@ -16,16 +17,21 @@
   /* (A) WRAPPER */
 .fullwrap {
     position: relative; /* required for (c2) */
-    width: 100vw; /* optional */
-   
+
+   background: fixed;
     background-color: #282c34;
     height: 100vh;
- 
-    
+  
   }
    
   /* (B) RESPONSIVE IMAGE */
-  .fullwrap img { width: 100%; 
+  .fullwrap img { 
+
+width: 100%;
+
+
+  
+
     transition: 1s ease ;
     filter: blur(4px);
 
