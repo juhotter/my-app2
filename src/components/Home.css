@@ -25,9 +25,12 @@
   }
    
   /* (B) RESPONSIVE IMAGE */
-  .fullwrap img { width: 100vw; 
+  .fullwrap img { width: 100%; 
     transition: 1s ease ;
-    filter: blur(4px);}
+    filter: blur(4px);
+
+  }
+    
     
    
   /* (C) CAPTION */

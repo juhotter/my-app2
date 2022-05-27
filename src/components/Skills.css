@@ -3,6 +3,7 @@
 
 .wrapper{
 height: 100vh;
+
 overflow: scroll;
 
   
@@ -25,8 +26,10 @@ padding: 15px;
   flex-wrap: wrap;
   transform-style: preserve-3d;
   perspective: 500px;
-  margin: 5px;
-  height: 50vh;
+width: 85vw;
+  height: 45vh;
+  padding-left: 5%;
+
 
  
 
