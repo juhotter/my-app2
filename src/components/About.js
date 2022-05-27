@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.css';
 import me from './me.jpeg'
-import finnland from "./finnland.jpg"
-import domrep from "./domrep.JPG"
+
 
 
 
@@ -22,7 +21,7 @@ function About() {
      <img className='image' src={me}   /> 
 
  
-     <blockquote>Developing something new is like building Lego for me</blockquote>
+     <blockquote>"Developing something new is like building Lego for me"</blockquote>
 
   
         

@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 .image{
    border-radius: 50%; 
-   height: 30%;
-   width: 28%;
+   height: 150px;
+   width: 150px;
    display: block;
    margin-left: auto;
    
@@ -36,7 +38,7 @@ blockquote {
 	position: relative;
 	margin: 0;
 	padding: 1rem;
-	font-family: 'Kalam', cursive;
+	font-family: 'Pacifico', cursive;
 	font-size: 35px;
 	color: #3f3f5a;
 	display: flex;
@@ -46,23 +48,6 @@ blockquote {
 	padding-bottom: 10%;
 }
 
-blockquote:before,
-blockquote:after {
-	position: absolute;
-	color: #f1efe6;
-	font-size: 8rem;
-	width: 4rem;
-	height: 4rem;
-}
 
-blockquote:before {
-	content: '“';
-	left: -0.1rem;
-	top: -1.5rem;
-}
 
-blockquote:after {
-	content: '”';
-	right: 2rem;
-	bottom: 4rem;
-}
+

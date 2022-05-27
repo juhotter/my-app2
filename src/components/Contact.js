@@ -45,7 +45,7 @@ function Contact() {
 <div className='links'>
 
 
-<h2 className='SocialMediaStatement'>... or find me on Social-Media</h2>
+<h2 className='SocialMediaStatement'>...find me on Social-Media</h2>
 
        <SocialIcon url="https://facebook.com/julianhotter" bgColor="#282c34"  />
         <><SocialIcon url="https://instagram.com/julian.hotter" bgColor="#282c34" /></>
@@ -62,7 +62,7 @@ function Contact() {
       
           
           
-  <div style={{paddingLeft:"100px", paddingTop:"50px"}}>
+  <div style={{paddingRight:"60px",paddingLeft:"60px",paddingTop:"10px",paddingBottom:"10px"}}>
            <ThemeProvider theme={theme}>
           
              

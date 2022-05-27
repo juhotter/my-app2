@@ -6,8 +6,10 @@
 float: right;
 font-family: "Comic Sans MS";
 text-align: center;
-padding: 120px;
-
+padding-right: 20%;
+padding-left: 20%;
+padding-top: 5%;
+padding-bottom: 10%;
 }
 
 .wholePage{
@@ -26,5 +28,6 @@ a[href^="mailto:"]
   font-size: 11px;
 }
 .SocialMediaStatement{
+
   font-family: 'Kalam';
 }
