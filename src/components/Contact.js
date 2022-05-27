@@ -171,7 +171,7 @@ trigger: '2',
 },
 {id: '11',
 message: 'He pasta-way.🤌 ' ,
-end: true,
+trigger: "222"
 },
 {id: '12',
 component: <ReactWhatsapp number="+43 6609200611" message="Hello" >
@@ -188,6 +188,14 @@ end: true,
 </Mailto>,
   end: true,
 },
+{
+  id: '222',
+  message: 'I know I am funny, but can i do something else for you?',
+ 
+  trigger: '5',
+  
+},
+
 ]}
     
 botAvatar={me}

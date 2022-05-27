@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 .fullwrap img:hover{
     
@@ -41,12 +41,12 @@
     top: 0; right: 0;
     padding-right: 38%;
     padding-top: 25vh;
-    font-family: 'Kalam';
+    font-family: 'Pacifico', cursive;
     transform: rotate(349deg);
     letter-spacing: 0.1em;
     word-spacing: 0.4em;
 
-   text-transform: uppercase;
+
     
   
 
