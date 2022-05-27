@@ -4,12 +4,9 @@
 .fullwrap img:hover{
     
   background-color: #282c34;
-    filter: none;
-
+ filter: none;
     transition: 1.5s ease ;
-    border-radius: 50%;
-    margin-left: -50px;
-    border: 1px solid #ffffff;
+ 
    
 
     }
@@ -23,12 +20,15 @@
    
     background-color: #282c34;
     height: 100vh;
+ 
     
   }
    
   /* (B) RESPONSIVE IMAGE */
   .fullwrap img { width: 100vw; 
-    transition: 1s ease ;}
+    transition: 1s ease ;
+    filter: blur(4px);}
+    
    
   /* (C) CAPTION */
   .fullcap {
@@ -36,7 +36,7 @@
   color: rgb(255, 255, 255);
     position: absolute;
     top: 0; right: 0;
-    padding-right: 40%;
+    padding-right: 38%;
     padding-top: 25vh;
     font-family: 'Kalam';
     transform: rotate(349deg);
@@ -59,6 +59,7 @@
   /* (D) SHOW/HIDE */
   .fullcap {
     visibility: none; opacity: 0;
+    transition: 2s ease ;
    
     
 
@@ -70,6 +71,7 @@
   .fullwrap:hover .fullcap {
     visibility: visible; 
     opacity: 1;
+
    
  
 

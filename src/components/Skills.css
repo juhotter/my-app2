@@ -4,6 +4,7 @@
 .wrapper{
 height: 100vh;
 overflow: scroll;
+
   
 }
 .text{
@@ -24,8 +25,9 @@ padding: 15px;
   flex-wrap: wrap;
   transform-style: preserve-3d;
   perspective: 500px;
-  margin: 5;
+  margin: 5px;
   height: 50vh;
+
  
 
 
