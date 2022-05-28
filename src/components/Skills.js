@@ -33,7 +33,7 @@ function Skills() {
 
 <div className="text">
 In Austria there is a saying "Geht nid gibts nid", meaning that something can't be done, doesn't exist.
-So i will try my best to make everything possible.
+So I will try my best to make everything possible.
 </div>
 <div class="mycontainer">
 
