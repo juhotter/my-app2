@@ -13,7 +13,7 @@ function Portfolio(){
 
 <div classname = "outerdiv">
 
-<p className='TextPortfolio'>
+<div className='TextPortfolio'>
 
 <p>
   <h3>What does my smartphone share about me? - Traffic analysis on Android</h3>
@@ -75,7 +75,7 @@ Therefore I played around with React, JavaScript, Html and CSS.
       
       
     />
-</p>
+</div>
 
 
 
