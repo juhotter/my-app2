@@ -25,15 +25,19 @@ function Home() {
        <div class="fullcap" id='hello'>
        
 
-         <span>I'm</span>
+         <h1>
+        <span>Hi. <br></br></span>
+           <span>I'm
          <span > Julian</span>
-         <span > - a </span>
+         </span></h1>
+   
+         <span > a </span>
          <span > Software</span>
-         <span > Engineer</span>
-         <span > Based </span>
+         <span > Engineer <br></br></span>
+         <span > 📍Based </span>
          <span > in</span>
-         <span > Austria</span>
-          
+         <span > Austria⛰️</span>
+       
        
          
        

@@ -48,6 +48,15 @@ We created a Web-App which allows a Online Multiplayer Game with a Online Chat.
 
 </p>
 
+<p> <h3>AWS Workflow with Ki Based Face Recognition from AWS</h3>
+Design and implementation of a workflow which takes Images and uploads them to the AWS Bucket.
+Aftersward every picure gets labeled, with help of AWS face recognition, with attributes you wish like age, happiness or gender.
+Then automatically there will be a collage generated based on one or more of the attributes. 
+The Collages will be safed as seperate Images on your AWS bucket or locally.
+
+
+</p>
+
 <p>
   <h3>My Portfolio Website</h3>
 
