@@ -21,7 +21,7 @@ function About() {
      <img className='image' src={me}   /> 
 
  
-     <blockquote>"Developing something new is like building Lego for me"</blockquote>
+     <blockquote>"Developing something new is like building Lego for me 🧱"</blockquote>
 
   
         

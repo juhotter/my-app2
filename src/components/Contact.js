@@ -62,7 +62,7 @@ function Contact() {
       
           
           
-  <div style={{paddingRight:"60px",paddingLeft:"60px",paddingTop:"10px",paddingBottom:"10px"}}>
+  <div style={{paddingRight:"60px",paddingLeft:"60px",paddingTop:"30px",paddingBottom:"10px"}}>
            <ThemeProvider theme={theme}>
           
              
